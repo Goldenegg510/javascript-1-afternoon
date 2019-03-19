@@ -63,7 +63,7 @@ let newGreeting = name => {
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+let groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 10////////////////////
 
@@ -72,12 +72,17 @@ let newGreeting = name => {
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+let dog = {
+  name: "devDog",
+  color: "brown",
+  age: 2,
+  goodBoy: true
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+let devMountainClassPet = dog.name
 
 //////////////////PROBLEM 11////////////////////
 
